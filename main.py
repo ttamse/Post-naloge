@@ -38,13 +38,13 @@ def calculator(num1, num2, operation):
         return num1 / num2
 
 def pretvori_mft(vrednost):
-    return float(vrednost) * 3.28084
+    return round(float(vrednost) * 3.28084, 0)
 
 def pretvori_kglbs(vrednost):
-    return float(vrednost) * 2.20462
+    return round(float(vrednost) * 2.20462, 1)
 
 def pretvori_kmhms(vrednost):
-    return float(vrednost) * 0.27778
+    return round(float(vrednost) * 0.27778, 1)
 
 class HelloHandler(BaseHandler):
     def get(self):
