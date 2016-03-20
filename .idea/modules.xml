@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../Python_osnove/Funkcije/.idea/Funkcije.iml" filepath="$PROJECT_DIR$/../../Python_osnove/Funkcije/.idea/Funkcije.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Python_osnove/.idea/Python_osnove.iml" filepath="$PROJECT_DIR$/../../Python_osnove/.idea/Python_osnove.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ttamse-post-naloge.iml" filepath="$PROJECT_DIR$/.idea/ttamse-post-naloge.iml" />
+    </modules>
+  </component>
+</project>

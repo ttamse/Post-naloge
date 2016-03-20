@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ugani stevilo</title>
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <h1>UGANI ŠTEVILO</h1>
+    {% if stevilo == "56" %}
+        <p>Uganil(a) si!</p>
+    {% else %}
+        <p>Žal nisi uganil(a). Lahko pa poskusiš ponovno.</p>
+        <a href = "/">Poskusi ponovno</a>
+        <br>
+        <br>
+    {% endif %}
+    <a href = "/">Back to main page</a>
+</body>
+</html>

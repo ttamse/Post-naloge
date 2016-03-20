@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>POST Naloge</title>
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <h1>Stran za vnos podatkov</h1>
+
+    <form method="post" action="/kalkulator"/>
+        <h2>Naloga 16.1: KALKULATOR</h2>
+        <p>Vnesi celo število: <input name="stevilo1"></p>
+        <p>Vnesi še eno celo število: <input name="stevilo2"></p>
+        <p>Vnesi operacijo (+, -, *, / ): <input name="operacija"></p>
+        <button type="submit">Izračunaj</button>
+    </form>
+
+    <form method="post" action="/uganistevilo"/>
+        <h2>Naloga 16.2: UGANI ŠTEVILO</h2>
+        <h4>UGIBAJ!</h4>
+        <p>Vnesi celo število: <input name="stevilo"></p>
+        <button type="submit">Preveri</button>
+    </form>
+
+    <form method="post" action="/pretvornikenot"/>
+        <h2>Naloga 16.3: PRETVORNIK ENOT</h2>
+        <p>Vrednost: <input name="vrednost"></p>
+        <p>
+            <label>Pretvorba enot:</label>
+
+            <input type = "radio"
+                   name="enote"
+                   id = "m_ft"
+                   value = "mft"
+                   checked = "checked" />
+            <label for = "m_ft">m >> ft</label>
+
+             <input type = "radio"
+                   name="enote"
+                   id = "kg_lbs"
+                   value = "kglbs" />
+            <label for = "kg_lbs">kg >> lbs</label>
+
+             <input type = "radio"
+                   name="enote"
+                   id = "kmh_ms"
+                   value = "kmhms" />
+            <label for = "kmh_ms">km/h >> m/s</label>
+        </p>
+        <button type="submit">Pretvori</button>
+    </form>
+
+
+</body>
+</html>
